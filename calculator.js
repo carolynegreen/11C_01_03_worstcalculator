@@ -27,12 +27,25 @@ function calculate() {
     result = topinput + bottominput;
     showResult();
   }
+  if (operator === "sub") {
+    console.log("add");
+    console.log(`the result is ${topinput - bottominput}`);
+    result = topinput - bottominput;
+    showResult();
+  }
+  if (operator === "mul") {
+    console.log("add");
+    console.log(`the result is ${topinput * bottominput}`);
+    result = topinput * bottominput;
+    showResult();
+  }
+  if (operator === "div") {
+    console.log("add");
+    console.log(`the result is ${topinput / bottominput}`);
+    result = topinput / bottominput;
+    showResult();
+  }
 }
-//minus
-
-//multi
-
-//divide
 
 //show result
 function showResult() {
